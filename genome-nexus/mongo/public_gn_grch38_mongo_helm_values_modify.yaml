@@ -52,7 +52,7 @@ image:
   ## Bitnami MongoDB image tag
   ## ref: https://hub.docker.com/r/bitnami/mongodb/tags/
   ##
-  tag: 38-db-image_grch38_ensembl95_without_run_without_drop_with_key
+  tag: 38-db-image_grch38_ensembl95_without_run_without_drop_without_uri_less_import
   # tag: 4.0.12
   ## Specify a imagePullPolicy
   ## ref: http://kubernetes.io/docs/user-guide/images/#pre-pulling-images
@@ -289,7 +289,7 @@ persistence:
   # storageClass: "-"
   accessModes:
     - ReadWriteOnce
-  size: 8Gi
+  size: 50Gi
   annotations: {}
 
 ## Configure the ingress resource that allows you to access the
