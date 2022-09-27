@@ -47,13 +47,13 @@ image:
   registry: docker.io
   ## Bitnami MongoDB image name
   ##
-  repository: leexdocker/gn-mongodb
-  # repository: bitnami/mongodb
+  # repository: leexdocker/gn-mongodb
+  repository: bitnami/mongodb
   ## Bitnami MongoDB image tag
   ## ref: https://hub.docker.com/r/bitnami/mongodb/tags/
   ##
-  tag: 38-db-image_grch38_ensembl95_without_run_without_drop_without_uri_less_import
-  # tag: 4.0.12
+  # tag: 38-db-image_grch38_ensembl95_without_run_without_drop_without_uri_less_import
+  tag: 4.0.12
   ## Specify a imagePullPolicy
   ## ref: http://kubernetes.io/docs/user-guide/images/#pre-pulling-images
   ##
@@ -187,11 +187,11 @@ replicaSet:
 
   ## Name of the replica set
   ##
-  name: rs012
+  name: rs0
 
   ## Key used for replica set authentication
   ##
-  key: thisisalongkeywithnumber999
+  # key: thisisalongkeywithnumber999
 
   ## Number of replicas per each node type
   ##
